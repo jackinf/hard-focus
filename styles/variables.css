@@ -1,0 +1,20 @@
+/*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
+:root {
+    --main-font-size: 18px;
+    --main-font-family: "IBM Plex Sans", sans-serif;
+    --font-family: "IBM Plex Mono", "monospace";
+    --rec-dec-visibilities: visible;
+
+    /* Dark theme variables */
+    --primary-color: #DB00FF; /* Hero header text, header blocks background, alternative header */
+    --secondary-color: #000028; /* Whole page background, header blocks text */
+    --accent-color: #FF0070; /* Accent color for additional styling if needed */
+    --description-color: #F1B2CE; /* Description block text */
+    --background-image: url(../images/cover-image-dark.png);
+    --nav-colorfaded: rgba(255, 0, 112, 0.4);
+    --decor-zone:#FF0070;
+    --link-color: #f61f70;
+  }
