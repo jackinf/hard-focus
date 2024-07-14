@@ -29,7 +29,7 @@ function changeTheme(theme) {
 }
 
 function initTheme() {
-  const theme = localStorage.getItem('theme') || 'light';
+  const theme = 'light';
   if (theme) {
     changeTheme(theme);
     themeButtons.forEach((btn) => {
