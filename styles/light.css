@@ -4,7 +4,6 @@
     --accent-color: #FF8DCB; /* Accent color for additional styling if needed */
     --main-section-title-color: #353430; /* Subheader text color */
     --description-color: #353430; /* Description block text */
-    /*--background-color: #FFF1F7;*/
     --background-image: url(../images/cover-image-light.png);
     --nav-colorfaded: rgba(50, 49, 45, 0.6);
     --decor-zone: #353430;
@@ -19,7 +18,6 @@
         --accent-color: #FF8DCB; /* Accent color for additional styling if needed */
         --main-section-title-color: #353430; /* Subheader text color */
         --description-color: #353430; /* Description block text */
-        --background-color: #FFF1F7;
         --background-image: url(../images/cover-image-light.png);
         --nav-colorfaded: rgba(50, 49, 45, 0.6);
         --decor-zone: #353430;

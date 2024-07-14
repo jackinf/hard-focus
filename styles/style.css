@@ -1,13 +1,13 @@
 .page {
     /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-    background-color: var(--secondary-color, #353430);
+    background-color: var(--secondary-color, #000028);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     font-family: var(--font-family, "IBM Plex Mono", "monospace");
-    color: var(--secondary-color, #353430);
+    color: var(--secondary-color, #000028);
     font-size: var(--main-font-size, 18px);
-    background-image: var(--background-image, url(../images/cover-image-light.png));
+    background-image: var(--background-image, url(../images/cover-image-dark.png));
 }
 
 .header {
@@ -31,37 +31,37 @@
 }
 
 .header-decorated-zone::before {
-    border-top: 1px solid var(--decor-zone, #353430);
-    border-right: 1px solid var(--decor-zone, #353430);
+    border-top: 1px solid var(--decor-zone, #FF0070);
+    border-right: 1px solid var(--decor-zone, #FF0070);
     top: 20px;
     right: 20px;
 }
 
 .header-decorated-zone::after {
-    border-bottom: 1px solid var(--decor-zone, #353430);
-    border-left: 1px solid var(--decor-zone, #353430);
+    border-bottom: 1px solid var(--decor-zone, #FF0070);
+    border-left: 1px solid var(--decor-zone, #FF0070);
     bottom: 20px;
     left: 20px;
 }
 
 .rec {
-    visibility: var(--rec-dec-visibilities, hidden);
+    visibility: var(--rec-dec-visibilities, visible);
     position: absolute;
     text-transform: uppercase;
     top: 20px;
     right: 30px;
-    color: var(--accent-color, #FF8DCB);
+    color: var(--accent-color, #FF0070);
 }
 
 .rec::after {
     content: "";
     display: inline-block;
-    background-color: var(--accent-color, #FF8DCB);
+    background-color: var(--accent-color, #FF0070);
     margin-inline-start: 10px;
     border-radius: 50%;
     width: 9px;
     height: 9px;
-    box-shadow: 0 0 4px 2px var(--accent-color, #FF8DCB);
+    box-shadow: 0 0 4px 2px var(--accent-color, #FF0070);
 }
 
 .header__theme-menu-list {
@@ -82,17 +82,17 @@
     padding: 0 13px;
     cursor: pointer;
     border: 0;
-    color: var(--decor-zone, #353430);
+    color: var(--decor-zone, #FF0070);
     min-height: 26px;
 }
 
 .header__theme-menu-button_active {
     pointer-events: none;
-    outline: 1px solid var(--decor-zone, #353430);
+    outline: 1px solid var(--decor-zone, #FF0070);
 }
 
 .header__theme-menu-button:hover {
-    outline: 1px solid var(--nav-colorfaded, rgba(50, 49, 45, 0.6));
+    outline: 1px solid var(--nav-colorfaded, rgba(255, 0, 112, 0.4));
 }
 
 .header__theme-menu-button:focus {
@@ -100,17 +100,17 @@
 }
 
 .header__theme-menu-button:focus-visible {
-    border-block-end: 1px solid var(--decor-zone, #353430);
+    border-block-end: 1px solid var(--decor-zone, #FF0070);
 }
 
 .header__title {
     display: flex;
     align-items: center;
-    color: var(--primary-color, #FFC2E6);
+    color: var(--primary-color, #DB00FF);
     font-weight: 700;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     line-height: 82.5%;
-    text-shadow: 4px 4px 0 var(--accent-color, #FF8DCB);
+    text-shadow: 4px 4px 0 var(--accent-color, #FF0070);
 }
 
 .header__subtitle {
@@ -123,8 +123,8 @@
 }
 
 .title-decor {
-    background-color: var(--accent-color, #FF8DCB);
-    color: var(--secondary-color, #353430);
+    background-color: var(--accent-color, #FF0070);
+    color: var(--secondary-color, #000028);
     font-weight: 700;
     background-size: cover;
     font-size: var(--main-font-size, 18px);
@@ -147,8 +147,8 @@
 
 .main__section-subtitle {
     font-weight: 400;
-    background-color: var(--accent-color, #FF8DCB);
-    color: var(--secondary-color, #353430);
+    background-color: var(--accent-color, #FF0070);
+    color: var(--secondary-color, #000028);
     line-height: 23.4px;
     font-size: var(--main-font-size, 18px);
     font-family: var(--font-family, "IBM Plex Mono", sans-serif);
@@ -174,7 +174,7 @@
 }
 
 .main__section-title {
-    color: var(--main-section-title-color, #353430);
+    color: var(--main-section-title-color, #FF0070);
     font-weight: 700;
     width: 315px;
     font-size: var(--main-font-size, 18px);
@@ -185,7 +185,7 @@
     font-family: var(--font-family, "IBM Plex Mono", "monospace");
     font-weight: 400;
     line-height: 23.4px;
-    color: var(--description-color, #353430);
+    color: var(--description-color, #F1B2CE);
     margin-top: 10px;
 }
 
@@ -219,11 +219,11 @@
 
 .text-link {
     text-decoration: none;
-    text-shadow: 2px 2px 0 var(--link-color, #f98ccc);
+    text-shadow: 2px 2px 0 var(--link-color, #f61f70);
 }
 
 .text-link:hover {
-    border-block-end: 1px solid var(--description-color, #353430);
+    border-block-end: 1px solid var(--description-color, #F1B2CE);
 }
 
 .text-link:focus {
@@ -231,7 +231,7 @@
 }
 
 .text-link:focus-visible {
-    outline: 1px solid var(--description-color, #353430);
+    outline: 1px solid var(--description-color, #F1B2CE);
 }
 
 .main__gallery {
@@ -278,8 +278,8 @@
 }
 
 .title-decoration {
-    background-color: var(--accent-color, #FF8DCB);
-    color: var(--secondary-color, #353430);
+    background-color: var(--accent-color, #FF0070);
+    color: var(--secondary-color, #000028);
     font-weight: 700;
     background-size: cover;
     font-size: var(--main-font-size, 18px);
@@ -292,7 +292,7 @@
     display: grid;
     place-items: center;
     min-height: 100vh;
-    /*padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);*/
+    margin-bottom: 10px;
 }
 
 .footer-decorated-zone::after,
@@ -304,25 +304,25 @@
 }
 
 .footer-decorated-zone::before {
-    border-top: 1px solid var(--decor-zone, #353430);
-    border-right: 1px solid var(--decor-zone, #353430);
+    border-top: 1px solid var(--decor-zone, #FF0070);
+    border-right: 1px solid var(--decor-zone, #FF0070);
     top: 80px;
     right: 20px;
 }
 
 .footer-decorated-zone::after {
-    border-bottom: 1px solid var(--decor-zone, #353430);
-    border-left: 1px solid var(--decor-zone, #353430);
+    border-bottom: 1px solid var(--decor-zone, #FF0070);
+    border-left: 1px solid var(--decor-zone, #FF0070);
     bottom: -40px;
     left: 20px;
 }
 
 .footer-title {
-    color: var(--primary-color, #FFC2E6);
+    color: var(--primary-color, #DB00FF);
     font-size: clamp(7.5rem, 0.75rem + 14.0625vw, 9.75rem);
     font-weight: 700;
     line-height: 82.5%;
-    text-shadow: 2px 2px 0px var(--accent-color, #FF8DCB);
+    text-shadow: 2px 2px 0px var(--accent-color, #FF0070);
     margin-top: 120px;
 }
 
@@ -405,7 +405,7 @@
 
     .footer-title {
         font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-        text-shadow: 2px 2px 0px var(--accent-color, #FF8DCB);
+        text-shadow: 2px 2px 0px var(--accent-color, #FF0070);
         margin-top: 37px;
     }
 
@@ -517,7 +517,7 @@
     }
 
     .main__section-subtitle {
-        background-color: var(--accent-color, #FF8DCB);
+        background-color: var(--accent-color, #FF0070);
         font-weight: 400;
         background-size: cover;
         font-size: var(--main-font-size, 18px);
