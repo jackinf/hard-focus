@@ -1,29 +1,29 @@
 .page.theme_light {
-  --primary-color: #FFC2E6; /* Hero header text, header blocks background, alternative header */
-  --secondary-color: #353430; /* Whole page background, header blocks text */
-  --accent-color: #FF8DCB; /* Accent color for additional styling if needed */
-  --main-section-title-color: #353430; /* Subheader text color */
-  --description-color: #353430; /* Description block text */
-  --background-color: #FFF1F7;
-  --background-image: url(../images/cover-image-light.png);
-  --nav-colorfaded:rgba(50, 49, 45, 0.6);
-  --decor-zone: #353430;
-  --rec-dec-visibilities: hidden;
-  --link-color: #f98ccc;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
     --primary-color: #FFC2E6; /* Hero header text, header blocks background, alternative header */
     --secondary-color: #353430; /* Whole page background, header blocks text */
     --accent-color: #FF8DCB; /* Accent color for additional styling if needed */
     --main-section-title-color: #353430; /* Subheader text color */
     --description-color: #353430; /* Description block text */
-    --background-color: #FFF1F7;
+    /*--background-color: #FFF1F7;*/
     --background-image: url(../images/cover-image-light.png);
-    --nav-colorfaded:rgba(50, 49, 45, 0.6);
+    --nav-colorfaded: rgba(50, 49, 45, 0.6);
     --decor-zone: #353430;
     --rec-dec-visibilities: hidden;
     --link-color: #f98ccc;
-  }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --primary-color: #FFC2E6; /* Hero header text, header blocks background, alternative header */
+        --secondary-color: #353430; /* Whole page background, header blocks text */
+        --accent-color: #FF8DCB; /* Accent color for additional styling if needed */
+        --main-section-title-color: #353430; /* Subheader text color */
+        --description-color: #353430; /* Description block text */
+        --background-color: #FFF1F7;
+        --background-image: url(../images/cover-image-light.png);
+        --nav-colorfaded: rgba(50, 49, 45, 0.6);
+        --decor-zone: #353430;
+        --rec-dec-visibilities: hidden;
+        --link-color: #f98ccc;
+    }
 }

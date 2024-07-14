@@ -1,27 +1,29 @@
 .page.theme_dark {
-  --primary-color: #DB00FF; /* Hero header text, header blocks background, alternative header */
-  --secondary-color: #000028; /* Whole page background, header blocks text */
-  --accent-color: #FF0070; /* Accent color for additional styling if needed */
-  --description-color: #F1B2CE; /* Description block text */
-  --background-color: #000028;
-  --background-image: url(../images/cover-image-dark.png);
-  --nav-colorfaded: rgba(255, 0, 112, 0.4);
-  --decore-zone: #FF0070;
-  --rec-dec-visibilities: visible;
-  --link-color:#f61f70;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
     --primary-color: #DB00FF; /* Hero header text, header blocks background, alternative header */
     --secondary-color: #000028; /* Whole page background, header blocks text */
     --accent-color: #FF0070; /* Accent color for additional styling if needed */
+    --main-section-title-color: #FF0070; /* Subheader text color */
     --description-color: #F1B2CE; /* Description block text */
     --background-color: #000028;
     --background-image: url(../images/cover-image-dark.png);
     --nav-colorfaded: rgba(255, 0, 112, 0.4);
-    --decor-zone: #FF0070;
+    --decore-zone: #FF0070;
     --rec-dec-visibilities: visible;
     --link-color: #f61f70;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #DB00FF; /* Hero header text, header blocks background, alternative header */
+        --secondary-color: #000028; /* Whole page background, header blocks text */
+        --accent-color: #FF0070; /* Accent color for additional styling if needed */
+        --main-section-title-color: #FF0070; /* Subheader text color */
+        --description-color: #F1B2CE; /* Description block text */
+        --background-color: #000028;
+        --background-image: url(../images/cover-image-dark.png);
+        --nav-colorfaded: rgba(255, 0, 112, 0.4);
+        --decor-zone: #FF0070;
+        --rec-dec-visibilities: visible;
+        --link-color: #f61f70;
     }
-  }
+}
