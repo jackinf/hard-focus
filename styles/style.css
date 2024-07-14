@@ -13,7 +13,7 @@
 .header {
     display: grid;
     position: relative;
-    min-height: 748px;
+    min-height: 100vh;
     grid-template-rows: 1fr min-content 1fr;
     align-items: start;
 }
@@ -296,7 +296,7 @@
     position: relative;
     display: grid;
     place-items: center;
-    min-height: 886px;
+    min-height: 100vh;
     margin-left: 18px;
     padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
