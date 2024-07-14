@@ -451,6 +451,7 @@
         margin-right: 10px;
         margin-top: 51px;
         margin-left: 10px;
+        width: 300px;
     }
 
     .main-section {
@@ -459,8 +460,8 @@
 
     .header__theme-menu-list {
         gap: 10px;
-        padding-right: 10px;
         padding-top: 0;
+        margin-top: 0;
         margin-bottom: 66.5px;
     }
 
@@ -471,8 +472,10 @@
     }
 
     .main {
-        padding: 37px 10px 0 5px;
-        margin-top: 0;
+        padding: 0;
+        margin-top: 37px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .main__section-title {
@@ -525,6 +528,10 @@
         min-height: 678px;
         margin-top: 30px;
         margin-left: 0;
+    }
+
+    .footer-title {
+        margin-top: 15px;
     }
 
     .footer-decorated-zone::before {
